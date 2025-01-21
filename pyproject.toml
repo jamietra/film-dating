@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "film-sorting"
+version = "0.1.0"
+description = ""
+authors = ["Joshua Mitra <joshua@alphalayer.ai>"]
+readme = "README.md"
+packages = [{include = "film_sorting"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+exif = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
